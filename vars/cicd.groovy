@@ -3,7 +3,7 @@ def newGit(repo)
    git "https://github.com/lnarayanareddy/${repo}.git"
 }
 
-def gitMaven()
+def luckyMaven()
 {
     sh 'mvn Package'
 }
