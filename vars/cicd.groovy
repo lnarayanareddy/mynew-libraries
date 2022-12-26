@@ -5,5 +5,5 @@ def newGit(repo)
 
 def luckyMaven()
 {
-    sh 'mvn Package'
+    sh 'Package'
 }
