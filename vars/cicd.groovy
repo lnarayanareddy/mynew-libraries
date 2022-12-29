@@ -10,5 +10,5 @@ def newMaven()
 
 def luckyDeploy(jobname,ipadress,context)
 {
-   sh "scp /home/ubuntu/.jenkins/workspace/${jobname}/webapp/target/webapp.war ubuntu@${ipadress}:/var/lib/tomcat9/webapps/${context}.war "
+   sh "scp /home/ubuntu/.jenkins/workspace/${jobname}/webapp/target/webapp.war ubuntu@${ipadress}:/var/lib/tomcat9/webapps/${context}.war"
 }
